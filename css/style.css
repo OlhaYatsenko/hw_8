@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --title-color: #3D3D3D;
+    --accent-color: #46A358;
+    --secondary-color: #727272;
+    --button-text-color: #FFFFFF;
+    --bg--button-color: #46A358;
+    --bg--button-border-color: #46A358;
+    --bg--blog-color: #FBFBFB;
+
+    --font-sm: 14px;
+    --font-md: 20px;
+    --font-xl: 30px;
+
+    --categories-full-width: 1202px;
+    --find-more-categories-gap-width: 28px;
+    --find-more-category-full-width: calc(var(--categories-full-width)/2 - var(--find-more-categories-gap-width)/2);
+
+    --blog__our__content-full-width: 1202px;
+    --blog__our__content-gap-width: 43px;
+    --blog__our__post-full-width: calc(var(--blog__our__content-full-width)/4 - var(--blog__our__content-gap-width)/1.33);
+}
+
+body {
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: var(--font-sm);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1440px;
+    max-height: 1024px;
+    margin: 0 auto;
+}
+
+.blog__content{
+    margin: 69px 120px 80px;
+    min-width: 1200px;
+}
+
+.blog__content__shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 138px;
+}
+
+.blog__content__shop__plant{
+    display: flex;
+    width: var(--find-more-category-full-width);
+}
+
+.blog__content__shop__plant__image{
+    overflow: hidden;
+    width: 50%;
+}
+
+.blog__content__shop__plant__text{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog__content__shop__plant__text__title{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--font-md);
+    font-weight: bold;
+}
+
+.blog__content__shop__plant__text__description{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog__content__shop__plant__text__button{
+    display: flex;
+    margin: 44px 0;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    color: var(--button-text-color);
+    background-color: var(--bg--button-color);
+    border-color: var(--bg--button-border-color);
+}
+
+.blog__content__shop__plant__text__button__text{
+    padding: 11px 2px 9px 28px;
+}
+
+.blog__content__shop__plant__text__button__icon{
+    padding: 11px 0 8px 0;
+}
+
+.blog__our__content__title{
+    display: flex;
+    justify-content: center;
+    font-size: var(--font-xl);
+    font-weight: bold;
+    color: var(--font-xl);
+}
+
+.blog__our__content__description{
+    display: flex;
+    justify-content: center;
+    font-size: var(--font-sm);
+    color: var(--title-color);
+    margin: 0 0 35px;
+}
+
+.blog__our__content__posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog__our__content__posts__post{
+    width: var(--blog__our__post-full-width);
+    background-color: var(--bg--blog-color);
+}
+
+.blog__our__content__posts__post__text{
+    margin: 12px;
+}
+
+.blog__our__content__posts__post__image{
+    width: 100%;
+}
+
+.blog__our__content__posts__post__text__about{
+    font-size: var(--font-sm);
+    color: var(--accent-color);
+}
+
+.blog__our__content__posts__post__text__title{
+    font-size: var(--font-md);
+    color: var(--title-color);
+    font-weight: bold;
+}
+
+.blog__our__content__posts__post__text__description{
+    font-size: var(--font-md);
+    color: var(--secondary-color);
+}
+
+.blog__our__content__posts__post__text__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--bg--blog-color);
+    padding: 9px 0 0 0;
+}
+
+.blog__our__content__posts__post__text__button__text{
+    font-size: var(--font-sm);
+    color: var(--title-color);
+    padding: 0 3px 0 0;
+}
+
+.blog__our__content__posts__post__text__button__icon{
+    width: 16px;
+}
+
