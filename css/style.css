@@ -24,13 +24,22 @@
     --blog__our__post-full-width: calc(var(--blog__our__content-full-width)/4 - var(--blog__our__content-gap-width)/1.33);
 }
 
-body {
+body{
     font-family: "Radio Canada Big", sans-serif;
     font-size: var(--font-sm);
 }
 
-a {
+a{
     text-decoration: none;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.text__description{
+    font-size: var(--font-sm);
+    color: var(--secondary-color);
 }
 
 .container{
@@ -39,47 +48,38 @@ a {
     margin: 0 auto;
 }
 
-.blog__content{
+.blog{
     margin: 69px 120px 80px;
     min-width: 1200px;
 }
 
-.blog__content__shop{
+.blog__content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 0 138px;
 }
 
-.blog__content__shop__plant{
+.blog__content__shop{
     display: flex;
     width: var(--find-more-category-full-width);
 }
 
-.blog__content__shop__plant__image{
-    overflow: hidden;
+.blog__image{
     width: 50%;
 }
 
-.blog__content__shop__plant__text{
+.blog__content__shop__text{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.blog__content__shop__plant__text__title{
-    display: flex;
-    flex-wrap: wrap;
+.blog__content__shop__title{
     font-size: var(--font-md);
-    font-weight: bold;
 }
 
-.blog__content__shop__plant__text__description{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.blog__content__shop__plant__text__button{
+.btn__find__more{
     display: flex;
     margin: 44px 0;
     width: 140px;
@@ -90,11 +90,11 @@ a {
     border-color: var(--bg--button-border-color);
 }
 
-.blog__content__shop__plant__text__button__text{
+.btn__find__more__text{
     padding: 11px 2px 9px 28px;
 }
 
-.blog__content__shop__plant__text__button__icon{
+.btn__find__more__icon{
     padding: 11px 0 8px 0;
 }
 
@@ -102,15 +102,11 @@ a {
     display: flex;
     justify-content: center;
     font-size: var(--font-xl);
-    font-weight: bold;
-    color: var(--font-xl);
 }
 
 .blog__our__content__description{
     display: flex;
     justify-content: center;
-    font-size: var(--font-sm);
-    color: var(--title-color);
     margin: 0 0 35px;
 }
 
@@ -120,36 +116,30 @@ a {
     justify-content: space-between;
 }
 
-.blog__our__content__posts__post{
+.blog__our__content__post{
     width: var(--blog__our__post-full-width);
     background-color: var(--bg--blog-color);
 }
 
-.blog__our__content__posts__post__text{
+.blog__our__content__text{
     margin: 12px;
 }
 
-.blog__our__content__posts__post__image{
+.blog__our__content__image{
     width: 100%;
 }
 
-.blog__our__content__posts__post__text__about{
+.blog__our__content__about{
     font-size: var(--font-sm);
     color: var(--accent-color);
 }
 
-.blog__our__content__posts__post__text__title{
+.blog__our__content__title{
     font-size: var(--font-md);
     color: var(--title-color);
-    font-weight: bold;
 }
 
-.blog__our__content__posts__post__text__description{
-    font-size: var(--font-md);
-    color: var(--secondary-color);
-}
-
-.blog__our__content__posts__post__text__button{
+.btn__read__more{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,13 +148,13 @@ a {
     padding: 9px 0 0 0;
 }
 
-.blog__our__content__posts__post__text__button__text{
+.btn__read__more__text{
     font-size: var(--font-sm);
     color: var(--title-color);
     padding: 0 3px 0 0;
 }
 
-.blog__our__content__posts__post__text__button__icon{
+.btn__read__more__icon{
     width: 16px;
 }
 
