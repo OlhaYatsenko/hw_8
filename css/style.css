@@ -37,7 +37,7 @@ a{
     font-weight: bold;
 }
 
-.text__description{
+.text--description{
     font-size: var(--font-sm);
     color: var(--secondary-color);
 }
@@ -53,33 +53,33 @@ a{
     min-width: 1200px;
 }
 
-.blog__content{
+.blog__plants{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 0 138px;
 }
 
-.blog__content__shop{
+.blog__shop{
     display: flex;
     width: var(--find-more-category-full-width);
 }
 
-.blog__image{
+.blog__shop--image{
     width: 50%;
 }
 
-.blog__content__shop__text{
+.blog__shop--text{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.blog__content__shop__title{
+.blog__shop--title{
     font-size: var(--font-md);
 }
 
-.btn__find__more{
+.btn--discover{
     display: flex;
     margin: 44px 0;
     width: 140px;
@@ -90,56 +90,56 @@ a{
     border-color: var(--bg--button-border-color);
 }
 
-.btn__find__more__text{
+.btn__text--discover{
     padding: 11px 2px 9px 28px;
 }
 
-.btn__find__more__icon{
+.btn__icon--discover{
     padding: 11px 0 8px 0;
 }
 
-.blog__our__content__title{
+.blog__posts--title{
     display: flex;
     justify-content: center;
     font-size: var(--font-xl);
 }
 
-.blog__our__content__description{
+.blog__posts--description{
     display: flex;
     justify-content: center;
     margin: 0 0 35px;
 }
 
-.blog__our__content__posts{
+.blog__posts{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.blog__our__content__post{
+.blog__post{
     width: var(--blog__our__post-full-width);
     background-color: var(--bg--blog-color);
 }
 
-.blog__our__content__text{
+.blog__posts--text{
     margin: 12px;
 }
 
-.blog__our__content__image{
+.blog__posts--image{
     width: 100%;
 }
 
-.blog__our__content__about{
+.blog__posts--about{
     font-size: var(--font-sm);
     color: var(--accent-color);
 }
 
-.blog__our__content__title{
+.blog__posts--name{
     font-size: var(--font-md);
     color: var(--title-color);
 }
 
-.btn__read__more{
+.btn--expand{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,13 +148,13 @@ a{
     padding: 9px 0 0 0;
 }
 
-.btn__read__more__text{
+.btn__text--expand{
     font-size: var(--font-sm);
     color: var(--title-color);
     padding: 0 3px 0 0;
 }
 
-.btn__read__more__icon{
+.btn__icon--expand{
     width: 16px;
 }
 
