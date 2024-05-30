@@ -71,17 +71,23 @@ a{
 
 .blog__shop--text{
     width: 50%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .blog__shop--title{
     font-size: var(--font-md);
+    text-align: right;
+    margin: 37px 0 9px;
+}
+
+.blog__shop--description{
+    font-size: var(--font-sm);
+    text-align: right;
 }
 
 .btn--discover{
     display: flex;
-    margin: 44px 0;
+    margin-top: 25px;
+    margin-left: auto;
     width: 140px;
     height: 40px;
     border-radius: 5px;
